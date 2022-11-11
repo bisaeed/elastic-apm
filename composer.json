@@ -1,0 +1,27 @@
+{
+  "name": "bisaeed/elastic-apm",
+  "description": "elastic apm agent",
+  "type": "library",
+  "require": {
+    "php": "^8.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "bisaeed\\ElasticApm\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Saeed Adabi",
+      "email": "saeedadabi72@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:bisaeed/elastic-apm.git"
+    }
+  ],
+  "minimum-stability": "dev"
+}
